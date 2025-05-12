@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Student Email:  email
+Student Name:  Hassatou Daramey
+Student Email:  hndarame@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,29 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+## What I Learned
+This project helped me understand how to build a complete data pipeline from scratch. I learned how to:
+- Interact with APIs using `requests`
+- Store data locally and organize it for a larger project
+- Transform and clean data using `pandas`
+- Build interactive visualizations with `plotly`
+- Create a user-friendly dashboard with `streamlit`
+- Write modular code and simple unit tests
 
+## Challenges
+
+The biggest challenge I faced was getting the API to work properly. I initially used the TMDb API but ran into issues with the API key configuration. I switched to the OMDb API, which worked better, but still had trouble getting the script to run due to key setup errors.
+
+Another challenge was managing file paths and making sure data moved smoothly between scripts. Sometimes the CSVs wouldn't generate or would be in the wrong location, causing later steps to break.
+
+## What I Would Improve
+
+If I had more time, I would:
+- Add error handling and fallback methods when API calls fail
+- Include more visualizations like genre counts or rating histograms
+- Let users search for their own movie titles in the dashboard
+- Deploy the Streamlit app so it could be accessed online
+
+## Final Thoughts
+
+Even though my project had some technical issues during runtime, I completed every major step with intention. I learned a lot about data pipelines and how to build something end-to-end. I feel more confident in using APIs, writing modular Python code, and building dashboards.
